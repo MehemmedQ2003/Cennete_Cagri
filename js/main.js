@@ -16,6 +16,5 @@ function closeModal() {
     modal.style.display = 'none';
 }
 
-
 // Footer
 document.getElementById('currentYear').textContent = new Date().getFullYear();

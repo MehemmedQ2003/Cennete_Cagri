@@ -17,7 +17,6 @@
 }
 
 /********************* Navbar *********************/
-
 .navbar a:hover {
     color: var(--text-color);
 }
@@ -86,7 +85,6 @@
 }
 
 /******************* Header *********************/
-
 header .col-lg-8 .articles .list-group-flush .list-group-item .card{
     width: 100%;
 }
@@ -118,7 +116,6 @@ a, .articles h3, .categories h3{
 
 
 /********************* Footer *********************/
-
 #footer .col-lg-12 .socialMedias ul li {
     text-align: center;
     width: 50px;
