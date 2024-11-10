@@ -1,0 +1,161 @@
+/********************* Body *********************/
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+/********************* Navbar *********************/
+
+.navbar a:hover {
+    color: var(--text-color);
+}
+
+.navbar .dropdown-item:hover {
+    color: black;
+}
+
+.navbar a:active{
+    color: white;
+}
+
+.navbar, .card, .list-group-item, .border, #footer, .navbar-toggler {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border-color: var(--text-color);
+}
+
+.navbar-toggler{
+    background-color: var(--text-color);
+    color: var(--text-color);
+    border-color: var(--text-color);
+}
+
+.nav-link, .card-title, .card-text, .navbar-brand, #footer h2, .footerP, .readMore, .categories li a{
+    color: var(--text-color);
+}
+
+.nav-link:link{
+    color: white ;
+}
+
+
+.nav-link.active {
+    text-decoration: underline;
+    transition: text-decoration-color 0.3s ease;
+}
+
+.dropdown-item, .dropdown-menu{
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.dropdown-menu li:hover{
+    color: black;
+}
+
+#sun-icon, #moon-icon {
+    width: 30px;
+    padding: 5px;
+    text-align: center;
+}
+
+/********************* Light and dark theme  *********************/
+
+.light-theme {
+    --background-color: #ffffff;
+    --text-color: #1d1d1d;
+}
+
+.dark-theme {
+    --background-color: #1d1d1d;
+    --text-color: #c9c9c9;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: white;
+}
+
+.light-theme .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: black;
+}
+
+.light-theme .navbar-toggler{
+    background-color: white;
+    border: 1px solid gray;
+}
+
+/********************* Header *********************/
+
+header .col-lg-8 .articles .list-group-flush .list-group-item .card{
+    width: 100%;
+}
+
+.categories li a b{
+    color: #E4A11B;
+}
+
+a, .articles h3, .categories h3{
+    color: black;
+}
+
+.videoDescriptionAll{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 40px;
+    padding: 30px 50px;
+}
+
+.videoDescriptionAll .videoDescriptionTitle{
+    padding: 5px 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 1px solid #152035;
+    background-color: #152035;
+    color: white;
+    border-radius: 40px;
+}
+
+
+/********************* Footer *********************/
+
+#footer .col-lg-12 .socialMedias ul li {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 13px;
+}
+
+.instagram{
+    background-color: #E1306C;
+    border: 1px solid #E1306C;
+}
+
+.facebook {
+    background-color: #1877F2;
+    border: 1px solid #1877F2;
+}
+
+.twitter {
+    background-color: #1DA1F2;
+    border: 0;
+    border: 1px solid #1DA1F2;
+}
+
+.youtube{
+    background-color: #FF0000;
+    border: 1px solid #FF0000;
+}
+
+.instagram i, .facebook i, .twitter i, .youtube i{
+    color: white;
+}
+
+.nav-link {
+    color: black; /* Light mode color */
+}
+
+.dark-theme .nav-link {
+    color: white; /* Dark mode color */
+}
