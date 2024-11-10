@@ -15,43 +15,48 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/slider.css">
 </head>
-<body class="position-relative">
+<body class="position-relative" style="background-color: #1D1D1D;">
 
      
-    <nav class="navbar navbar-expand-lg border border-bottom border-end-0 border-start-0 border-top-0 position-sticky top-0 z-3">
+    <nav class="navbar navbar-expand-lg border border-bottom border-end-0 border-start-0 border-top-0 position-sticky top-0 z-3"
+        style="background-color: #1D1D1D;">
         <div class="container">
-            <a class="navbar-brand fw-bolder fs-4" href="index.html">Cennete Çağrı</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand fw-bolder fs-4 text-white w-25" href="index.html">Cennete Çağrı</a>
+            <button class="navbar-toggler bg-body" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav me-auto ms-5 my-2 navbar-nav-scroll d-flex align-items-center gap-3">
+                <ul class="w-100 navbar-nav my-2 navbar-nav-scroll d-flex align-items-center text-center gap-3">
                     <li class="fs-5 nav-item">
-                        <a class="nav-link" href="index.html">Anasayfa</a>
+                        <a class="nav-link text-white active" href="index.html">Anasayfa</a>
                     </li>
                     <li class="fs-5 nav-item">
-                        <a class="nav-link" href="about.html">Hakkımızda</a>
+                        <a class="nav-link text-white" href="about.html">Hakkımızda</a>
                     </li>
                     <li class="fs-5 nav-item">
-                        <a class="nav-link" href="article.html">Makaleler</a>
+                        <a class="nav-link text-white" href="article.html">Makaleler</a>
                     </li>
                     <li class="fs-5 nav-item">
-                        <a class="nav-link" href="video.html">Videolar</a>
+                        <a class="nav-link text-white" href="video.html">Videolar</a>
                     </li>
                     <li class="fs-5 nav-item">
-                        <a class="nav-link" href="contact.html">İletisim</a>
+                        <a class="nav-link text-white" href="contact.html">İletişim</a>
                     </li>
                     <li class="fs-5 nav-item">
-                        <a class="nav-link" href="galery.html">Galeri</a>
+                        <a class="nav-link text-white" href="galery.html">Galeri</a>
                     </li>
                 </ul>
-                <ul class="d-flex gap-2">
-                    <li class="fs-5 nav-item">
-                        <a id="sun-icon" class="nav-link border rounded-pill border-dark fs-6"><i class="fa-solid fa-sun"></i></a>
-                    </li>
-                    <li class="fs-5 nav-item">
-                        <a id="moon-icon" class="nav-link border rounded-pill border-dark fs-6"><i class="fa-solid fa-moon"></i></a>
+                <ul class="navbar-nav py-3 px-5navbar-nav-scroll d-flex align-items-center gap-3">
+                    <li class="nav-item w-100">
+                        <select class="form-select" aria-label="Select Language" id="languageSelect">
+                            <option value="az">az</option>
+                            <option value="tr">tr</option>
+                            <option value="en">en</option>
+                            <option value="fr">fr</option>
+                            <option value="ru">ru</option>
+                        </select>
                     </li>
                 </ul>
             </div>
@@ -89,18 +94,18 @@
                     <div class="articles">
                         <h3 class="border border-1 rounded-2 px-3 py-2 my-4 text-center bg-white">Makaleler</h3>
                         <ul class="list-group list-group-flush border-0">
-                            <li class="list-group-item border-0 mb-5">
+                            <li class="list-group-item border-0 text-white mb-5">
                                 <div class="card border-0">
                                     <div class="row align-items-center justify-content-between">
-                                        <div class="col-lg-4">
+                                        <div class="col-lg-5">
                                             <img src="./img/tawhid-black.jpg" class="img-fluid rounded-start" alt="...">
                                         </div>
-                                        <div class="col-lg-8">
+                                        <div class="col-lg-7">
                                             <div class="card-body">
                                                 <p class="text-warning">Tefsir</p>
-                                                <h3><a class="card-title my-3 d-block" href="#">Mûsâ’ya İnanan Gençler</a></h3>
+                                                <h3><a class="card-title my-3 d-block text-white" href="#">Mûsâ’ya İnanan Gençler</a></h3>
                                                 <a href="#" class="text-secondary my-3 d-block"><i class="fa-solid fa-clock"> 17 Agustos 2024</i></a>
-                                                <p class="card-text fw-normal mb-3">Allah’ın adıyla, Allah’a hamd, Resûl’üne salât ve selam olsun. Es-Selamu Aleykum ve Rahmetullahi ve Berakatuhu, Mûsâ (as) insanları Allah’a (cc) davet ettiğinde</p>
+                                                <p class="card-text text-white fw-normal mb-3">Allah’ın adıyla, Allah’a hamd, Resûl’üne salât ve selam olsun. Es-Selamu Aleykum ve Rahmetullahi ve Berakatuhu, Mûsâ (as) insanları Allah’a (cc) davet ettiğinde</p>
                                                 <a href="#" class="fw-bolder readMore">Devamini oku..</a>
                                             </div>
                                         </div>
@@ -108,18 +113,18 @@
                                 </div>
                             </li>
                             <hr>
-                            <li class="list-group-item border-0 mb-5">
+                            <li class="list-group-item border-0 text-white mb-5">
                                 <div class="card border-0">
                                     <div class="row align-items-center justify-content-between">
-                                        <div class="col-lg-4">
+                                        <div class="col-lg-5">
                                             <img src="./img/tawhid-black.jpg" class="img-fluid rounded-start" alt="...">
                                         </div>
-                                        <div class="col-lg-8">
+                                        <div class="col-lg-7">
                                             <div class="card-body">
                                                 <p class="text-warning">Tefsir</p>
-                                                <h3><a class="card-title my-3 d-block" href="#">Mûsâ’ya İnanan Gençler</a></h3>
+                                                <h3><a class="card-title my-3 d-block text-white" href="#">Mûsâ’ya İnanan Gençler</a></h3>
                                                 <a href="#" class="text-secondary my-3 d-block"><i class="fa-solid fa-clock"> 17 Agustos 2024</i></a>
-                                                <p class="card-text fw-normal mb-3">Allah’ın adıyla, Allah’a hamd, Resûl’üne salât ve selam olsun. Es-Selamu Aleykum ve Rahmetullahi ve Berakatuhu, Mûsâ (as) insanları Allah’a (cc) davet ettiğinde</p>
+                                                <p class="card-text text-white fw-normal mb-3">Allah’ın adıyla, Allah’a hamd, Resûl’üne salât ve selam olsun. Es-Selamu Aleykum ve Rahmetullahi ve Berakatuhu, Mûsâ (as) insanları Allah’a (cc) davet ettiğinde</p>
                                                 <a href="#" class="fw-bolder readMore">Devamini oku..</a>
                                             </div>
                                         </div>
@@ -127,56 +132,18 @@
                                 </div>
                             </li>
                             <hr>
-                            <li class="list-group-item border-0 mb-5">
+                            <li class="list-group-item border-0 text-white mb-5">
                                 <div class="card border-0">
                                     <div class="row align-items-center justify-content-between">
-                                        <div class="col-lg-4">
+                                        <div class="col-lg-5">
                                             <img src="./img/tawhid-black.jpg" class="img-fluid rounded-start" alt="...">
                                         </div>
-                                        <div class="col-lg-8">
+                                        <div class="col-lg-7">
                                             <div class="card-body">
                                                 <p class="text-warning">Tefsir</p>
-                                                <h3><a class="card-title my-3 d-block" href="#">Mûsâ’ya İnanan Gençler</a></h3>
+                                                <h3><a class="card-title my-3 d-block text-white" href="#">Mûsâ’ya İnanan Gençler</a></h3>
                                                 <a href="#" class="text-secondary my-3 d-block"><i class="fa-solid fa-clock"> 17 Agustos 2024</i></a>
-                                                <p class="card-text fw-normal mb-3">Allah’ın adıyla, Allah’a hamd, Resûl’üne salât ve selam olsun. Es-Selamu Aleykum ve Rahmetullahi ve Berakatuhu, Mûsâ (as) insanları Allah’a (cc) davet ettiğinde</p>
-                                                <a href="#" class="fw-bolder readMore">Devamini oku..</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <hr>
-                            <li class="list-group-item border-0 mb-5">
-                                <div class="card border-0">
-                                    <div class="row align-items-center justify-content-between">
-                                        <div class="col-lg-4">
-                                            <img src="./img/tawhid-black.jpg" class="img-fluid rounded-start" alt="...">
-                                        </div>
-                                        <div class="col-lg-8">
-                                            <div class="card-body">
-                                                <p class="text-warning">Tefsir</p>
-                                                <h3><a class="card-title my-3 d-block" href="#">Mûsâ’ya İnanan Gençler</a></h3>
-                                                <a href="#" class="text-secondary my-3 d-block"><i class="fa-solid fa-clock"> 17 Agustos 2024</i></a>
-                                                <p class="card-text fw-normal mb-3">Allah’ın adıyla, Allah’a hamd, Resûl’üne salât ve selam olsun. Es-Selamu Aleykum ve Rahmetullahi ve Berakatuhu, Mûsâ (as) insanları Allah’a (cc) davet ettiğinde</p>
-                                                <a href="#" class="fw-bolder readMore">Devamini oku..</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <hr>
-                            <li class="list-group-item border-0 mb-5">
-                                <div class="card border-0">
-                                    <div class="row align-items-center justify-content-between">
-                                        <div class="col-lg-4">
-                                            <img src="./img/tawhid-black.jpg" class="img-fluid rounded-start" alt="...">
-                                        </div>
-                                        <div class="col-lg-8">
-                                            <div class="card-body">
-                                                <p class="text-warning">Tefsir</p>
-                                                <h3><a class="card-title my-3 d-block" href="#">Mûsâ’ya İnanan Gençler</a></h3>
-                                                <a href="#" class="text-secondary my-3 d-block"><i class="fa-solid fa-clock"> 17 Agustos 2024</i></a>
-                                                <p class="card-text fw-normal mb-3">Allah’ın adıyla, Allah’a hamd, Resûl’üne salât ve selam olsun. Es-Selamu Aleykum ve Rahmetullahi ve Berakatuhu, Mûsâ (as) insanları Allah’a (cc) davet ettiğinde</p>
+                                                <p class="card-text text-white fw-normal mb-3">Allah’ın adıyla, Allah’a hamd, Resûl’üne salât ve selam olsun. Es-Selamu Aleykum ve Rahmetullahi ve Berakatuhu, Mûsâ (as) insanları Allah’a (cc) davet ettiğinde</p>
                                                 <a href="#" class="fw-bolder readMore">Devamini oku..</a>
                                             </div>
                                         </div>
@@ -193,25 +160,13 @@
                     <div class="categories my-5">
                         <h3 class="border border-1 bg-white rounded-2 px-3 py-2 my-4 text-center">Kategoriler</h3>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item border-0"><a href="article-category.html">Akaid - <b>1000</b></a> </li>
+                            <li class="list-group-item border-0 text-white"><a href="article-category.html">Akaid - <b>1000</b></a> </li>
                             <hr>
-                            <li class="list-group-item border-0"><a href="article-category.html">Akaid - <b>1000</b></a> </li>
+                            <li class="list-group-item border-0 text-white"><a href="article-category.html">Akaid - <b>1000</b></a> </li>
                             <hr>
-                            <li class="list-group-item border-0"><a href="article-category.html">Akaid - <b>1000</b></a> </li>
+                            <li class="list-group-item border-0 text-white"><a href="article-category.html">Akaid - <b>1000</b></a> </li>
                             <hr>
-                            <li class="list-group-item border-0"><a href="article-category.html">Akaid - <b>1000</b></a> </li>
-                            <hr>
-                            <li class="list-group-item border-0"><a href="article-category.html">Akaid - <b>1000</b></a> </li>
-                            <hr>
-                            <li class="list-group-item border-0"><a href="article-category.html">Akaid - <b>1000</b></a> </li>
-                            <hr>
-                            <li class="list-group-item border-0"><a href="article-category.html">Akaid - <b>1000</b></a> </li>
-                            <hr>
-                            <li class="list-group-item border-0"><a href="article-category.html">Akaid - <b>1000</b></a> </li>
-                            <hr>
-                            <li class="list-group-item border-0"><a href="article-category.html">Akaid - <b>1000</b></a> </li>
-                            <hr>
-                            <li class="list-group-item border-0"><a href="article-category.html">Akaid - <b>1000</b></a> </li>
+                            <li class="list-group-item border-0 text-white"><a href="article-category.html">Akaid - <b>1000</b></a> </li>
                             <hr>
                         </ul>
                     </div>
@@ -221,11 +176,11 @@
     </header>
 
     <footer id="footer" class="mt-5 border-0">
-        <div class="container py-5">
+        <div class="container pt-5 py-2">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="text-center">Sosyal Medya Hesaplarımız</h2>
-                    <div class="socialMedias mt-4">
+                    <h2 class="text-center text-warning">Sosyal Medya Hesaplarımız</h2>
+                    <div class="socialMedias mt-3">
                         <ul class="d-flex align-items-center justify-content-center gap-3">
                             <li class="instagram">
                                 <a href="https://www.instagram.com/cennetee_cagri/" title="Instagram">
@@ -248,7 +203,6 @@
                                 </a>
                             </li>
                         </ul>
-                        
                     </div>
                 </div>
             </div>

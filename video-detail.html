@@ -15,42 +15,48 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/slider.css" />
 </head>
-<body class="position-relative">
+<body class="position-relative" style="background-color: #1D1D1D;">
 
-    <nav class="navbar navbar-expand-lg border border-bottom border-end-0 border-start-0 border-top-0 position-sticky top-0 z-3">
+    
+    <nav class="navbar navbar-expand-lg border border-bottom border-end-0 border-start-0 border-top-0 position-sticky top-0 z-3"
+        style="background-color: #1D1D1D;">
         <div class="container">
-            <a class="navbar-brand fw-bolder fs-4" href="index.html">Cennete Çağrı</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand fw-bolder fs-4 text-white w-25" href="index.html">Cennete Çağrı</a>
+            <button class="navbar-toggler bg-body" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav me-auto ms-5 my-2 navbar-nav-scroll d-flex align-items-center gap-3">
+                <ul class="w-100 navbar-nav my-2 navbar-nav-scroll d-flex align-items-center text-center gap-3">
                     <li class="fs-5 nav-item">
-                        <a class="nav-link" href="index.html">Anasayfa</a>
+                        <a class="nav-link text-white" href="index.html">Anasayfa</a>
                     </li>
                     <li class="fs-5 nav-item">
-                        <a class="nav-link" href="about.html">Hakkımızda</a>
+                        <a class="nav-link text-white" href="about.html">Hakkımızda</a>
                     </li>
                     <li class="fs-5 nav-item">
-                        <a class="nav-link" href="article.html">Makaleler</a>
+                        <a class="nav-link text-white" href="article.html">Makaleler</a>
                     </li>
                     <li class="fs-5 nav-item">
-                        <a class="nav-link" href="video.html">Videolar</a>
+                        <a class="nav-link text-white" href="video.html">Videolar</a>
                     </li>
                     <li class="fs-5 nav-item">
-                        <a class="nav-link" href="contact.html">İletisim</a>
+                        <a class="nav-link text-white" href="contact.html">İletişim</a>
                     </li>
                     <li class="fs-5 nav-item">
-                        <a class="nav-link" href="galery.html">Galeri</a>
+                        <a class="nav-link text-white" href="galery.html">Galeri</a>
                     </li>
                 </ul>
-                <ul class="d-flex gap-2">
-                    <li class="fs-5 nav-item">
-                        <a id="sun-icon" class="nav-link border rounded-pill border-dark fs-6"><i class="fa-solid fa-sun"></i></a>
-                    </li>
-                    <li class="fs-5 nav-item">
-                        <a id="moon-icon" class="nav-link border rounded-pill border-dark fs-6"><i class="fa-solid fa-moon"></i></a>
+                <ul class="navbar-nav py-3 px-5navbar-nav-scroll d-flex align-items-center gap-3">
+                    <li class="nav-item w-100">
+                        <select class="form-select" aria-label="Select Language" id="languageSelect">
+                            <option value="az">az</option>
+                            <option value="tr">tr</option>
+                            <option value="en">en</option>
+                            <option value="fr">fr</option>
+                            <option value="ru">ru</option>
+                        </select>
                     </li>
                 </ul>
             </div>
@@ -66,8 +72,8 @@
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-                        class="border border-opacity-10 rounded-3"></iframe>
-                    <h4 class="mt-4 videoTitle">
+                        class="border border-warning rounded-3"></iframe>
+                    <h4 class="mt-4 videoTitle text-white fs-3 text-center">
                         2 - Şerhus Sunne Dersleri - İmam Berbehari | Ebu Nuh Hoca
                     </h4>
                     <div class="videoDescriptionAll my-5">
@@ -114,11 +120,11 @@
         </div>
     </header>
 
-    <footer id="footer" class="mt-5 border-0">
+    <footer id="footer" class="mt-5 borde-0">
         <div class="container py-5">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="text-center">Sosyal Medya Hesaplarımız</h2>
+                    <h2 class="text-center text-warning">Sosyal Medya Hesaplarımız</h2>
                     <div class="socialMedias mt-4">
                         <ul class="d-flex align-items-center justify-content-center gap-3">
                             <li class="instagram">
@@ -127,8 +133,7 @@
                                 </a>
                             </li>
                             <li class="facebook">
-                                <a href="https://www.facebook.com/people/Cennete-%C3%87a%C4%9Fr%C4%B1/pfbid02MKF2WenNq679mhuqqfUKe7WNpL2YrHiz8s9GgCJDhZc1tF8LMmiokm1eTE7185Scl/"
-                                    title="Facebook">
+                                <a href="https://www.facebook.com/people/Cennete-%C3%87a%C4%9Fr%C4%B1/pfbid02MKF2WenNq679mhuqqfUKe7WNpL2YrHiz8s9GgCJDhZc1tF8LMmiokm1eTE7185Scl/" title="Facebook">
                                     <i class="fa fa-facebook" aria-hidden="true"></i>
                                 </a>
                             </li>
@@ -139,19 +144,16 @@
                             </li>
                             <li class="youtube">
                                 <a href="https://www.youtube.com/c/Cennete%C3%87a%C4%9Fr%C4%B1" title="YouTube">
-                                    <i class="fa fa-youtube" aria-hidden="true"></i>
+                                    <i class="fa fa-youtube" aria-hidden="true"></i>    
                                 </a>
                             </li>
-                        </ul>
+                        </ul>                        
                     </div>
                 </div>
             </div>
         </div>
-        <hr />
-        <p class="py-4 text-center fs-5 fw-semibold footerP">
-            &copy; <span id="currentYear"></span> Cennete Çagrı. All rights
-            reserved.
-        </p>
+        <hr>
+        <p class="py-4 text-center fs-5 fw-semibold footerP">&copy; <span id="currentYear"></span> Cennete Çagrı. All rights reserved.</p>
     </footer>
 
     <script src="js/main.js"></script>

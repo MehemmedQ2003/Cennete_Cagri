@@ -1,8 +1,19 @@
-/********************* Body *********************/
+/********************* Custom Scrollbar Styles *********************/
+::-webkit-scrollbar {
+    width: 14px;
+}
 
-body {
-    background-color: var(--background-color);
-    color: var(--text-color);
+::-webkit-scrollbar-track {
+    background: #555;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: white;
 }
 
 /********************* Navbar *********************/
@@ -31,18 +42,32 @@ body {
     border-color: var(--text-color);
 }
 
-.nav-link, .card-title, .card-text, .navbar-brand, #footer h2, .footerP, .readMore, .categories li a{
+.nav-link, .card-title, .card-text, .navbar-brand, #footer h2, .categories li a{
     color: var(--text-color);
+}
+
+.card-body{
+    color: white;
+}
+
+.readMore{
+    color: #FFC107;
 }
 
 .nav-link:link{
     color: white ;
 }
 
+.footerP{
+    color: #FFC107;
+}
 
 .nav-link.active {
     text-decoration: underline;
     transition: text-decoration-color 0.3s ease;
+    text-decoration-color: #0DCAF0;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #0DCAF0;
 }
 
 .dropdown-item, .dropdown-menu{
@@ -60,32 +85,7 @@ body {
     text-align: center;
 }
 
-/********************* Light and dark theme  *********************/
-
-.light-theme {
-    --background-color: #ffffff;
-    --text-color: #1d1d1d;
-}
-
-.dark-theme {
-    --background-color: #1d1d1d;
-    --text-color: #c9c9c9;
-}
-
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
-    color: white;
-}
-
-.light-theme .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
-    color: black;
-}
-
-.light-theme .navbar-toggler{
-    background-color: white;
-    border: 1px solid gray;
-}
-
-/********************* Header *********************/
+/******************* Header *********************/
 
 header .col-lg-8 .articles .list-group-flush .list-group-item .card{
     width: 100%;
@@ -100,9 +100,10 @@ a, .articles h3, .categories h3{
 }
 
 .videoDescriptionAll{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgb(242, 237, 237) 0px 5px 15px;
     border-radius: 40px;
     padding: 30px 50px;
+    color: white;
 }
 
 .videoDescriptionAll .videoDescriptionTitle{
@@ -150,12 +151,4 @@ a, .articles h3, .categories h3{
 
 .instagram i, .facebook i, .twitter i, .youtube i{
     color: white;
-}
-
-.nav-link {
-    color: black; /* Light mode color */
-}
-
-.dark-theme .nav-link {
-    color: white; /* Dark mode color */
 }
